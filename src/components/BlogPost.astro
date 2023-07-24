@@ -8,19 +8,28 @@ export interface Props {
   alt: string;
 }
 
-const { title, author, authorURL, publishDate, heroImage, alt } =
+const { title, author, authorURL, publishDate, heroImage, alt, categories } =
   Astro.props as Props;
+
+let allCategories = categories;
+
+if (allCategories == undefined) {
+	allCategories = []
+}
 ---
 
 <div class="md:container md:mx-0 m-5">
-  <article class="prose lg:prose-lg max-w-full">
+  <articles>
     <header class="my-10">
       {heroImage && <img loading="lazy" src={heroImage} alt={alt} />}
-      <p>{publishDate}</p>
-      <h1>{title}</h1>
+      <p class="text-sm">{publishDate}</p>
+      <h1 class="font-bold text-5xl my-2">{title}</h1>
+      <div class="flex my-2 text-sm mb-4">
+        {allCategories.map((c) => <p class="bg-primary p-1 px-2 mr-5 rounded-sm">{c}</p>)}
+      </div>
       <a href={authorURL}>Written by {author}</a>
     </header>
-    <main class="mb-40">
+    <main class="mb-40 prose prose-lg max-w-full">
       <slot />
     </main>
     <script

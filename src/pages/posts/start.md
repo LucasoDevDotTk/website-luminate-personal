@@ -3,6 +3,8 @@ title: Using Netlify CMS with an Astro site
 publishDate: 16 May 2022
 author: Chris Swithinbank
 authorURL: https://twitter.com/swithinbank
+categories:
+  - DEV UPDATE
 description: How to get started using Netlify CMS to manage your Astro site’s content
 layout: ../../layouts/BlogPost.astro
 ---

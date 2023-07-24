@@ -37,6 +37,7 @@ export default defineConfig({
             },
             { name: 'author', widget: 'string', label: 'Author Name', required: false },
             { name: 'authorURL', widget: 'string', label: 'Author URL', required: false },
+            { name: 'categories', widget: 'list', label: 'Categories', field: {label: 'Category', name: "categoryItem", widget: "string"} },
             { name: 'description', widget: 'string', label: 'Description', required: false },
             { name: 'body', widget: 'markdown', label: 'Post Body' },
             {
