@@ -1,18 +1,15 @@
 ---
-title: BLOGPPOSTTEST912830912398
-publishDate: 23 Jul 2023
-author: ASDkjkljASD
-authorURL: DSASFDA
-categories:
-  - TEST CATEGORY
-  - PRESS RELEASE
-description: DSADSFAF
+title: New Update Regarding LuminateOS (Test)
+publishDate: Jul 20, 2023
+author: Lucas Nguyen
+authorURL: https://google.com
+category: Press release
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+  eiusmod tempoincididunt ut labore et dolore magna aliqua. Ut enim ad minim
+  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+  commodo consequat.
 layout: ../../layouts/BlogPost.astro
 ---
-DSFDAFDSAFASDAFDSASDFFSAS
+![](https://avatars.githubusercontent.com/u/139485956?s=200&v=4)
 
-DF
-
-SAD
-
-F SO SORRY FOR THIS TEXT
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempoincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempoincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

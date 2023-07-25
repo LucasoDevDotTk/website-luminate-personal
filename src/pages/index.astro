@@ -22,22 +22,26 @@ import "../base.css"
 		<BaseHead {title} {description} {permalink} />
 	</head>
 
-	<body class="bg-background">
+	<body class="bg-background font-poppins">
 		<Navbar />
-		<div class="md:container md:mx-auto min-h-screen m-5">
+		<div class="md:container md:mx-auto min-h-screen p-5">
 			<main>
-				<section class="my-20">
+				<!-- <section class="my-20">
 					<h1 class="font-bold text-4xl text-center">{title}</h1>
 					<p class="my-5 text-center">{description}</p>
-				</section>
+				</section> -->
 				<section class="overflow-hidden" aria-label="Blog post list">
 					{allPosts.map((p) => <BlogPostPreview post={p} />)}
 				</section>
 			</main>
 			<footer>
-			<a class="hover:underline block text-center" href="/admin">Admin Dashboard 🔐</a>
+			<!-- <a class="hover:underline block text-center" href="/admin">Admin Dashboard 🔐</a> -->
 			</footer>
 		</div>
 		<Footer></Footer>
 	</body>
 </html>
+
+<script>
+	// alert("This blog is still in development. Press OK to continue.")
+</script>
