@@ -16,12 +16,14 @@ import "../base.css"
 	</head>
 
 	<body class="bg-background font-poppins">
-		<Navbar />
-		<div class="md:mx-auto md:container">
-			<BlogPost {title} {author} {authorURL} {heroImage} {publishDate} {alt} {category}>
-				<slot />
-			</BlogPost>
+		<div class="w-full h-full bg-[url('../blob.svg')] bg-contain bg-no-repeat" style="background-size: 125rem;">
+			<Navbar />
+			<div class="md:mx-auto md:container">
+				<BlogPost {title} {author} {authorURL} {heroImage} {publishDate} {alt} {category}>
+					<slot />
+				</BlogPost>
+			</div>
+			<Footer></Footer>
 		</div>
-        <Footer></Footer>
 	</body>
 </html>
